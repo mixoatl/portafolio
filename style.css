@@ -1,0 +1,113 @@
+#img-perfil{
+    width: 150px;
+}
+
+#img-stack{
+    width: 200px;
+}
+
+.bg-primary, .btn-primary{
+    background-color: #c29ffa!important;
+}
+
+.nav-link{
+    color: #290661!important;
+}
+
+.text-bg-primary{
+    background-color: #3d0a91!important;
+}
+
+.bg-dark{
+    background-color: #290661!important;
+}
+
+.titulo-proyecto{
+    text-shadow: 2px 5px 30px #000000;
+}
+
+#proyecto-1{
+    background-image: url('images/fcfmart.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#proyecto-2{
+    background-image: url('images/hm.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#proyecto-3{
+    background-image: url('images/clon-google.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+#proyecto-4{
+    background-image: url('images/gallinas&gatos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#proyecto-5{
+    background-image: url('images/videolife.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#proyecto-6{
+    background-image: url('images/safenav.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #3d0a91;
+    height: 5px;
+}
+
+.carousel-caption{
+    color:black;
+}
+
+.icono{
+    font-size: 2rem;
+    color: #8d8bff;
+    margin: 12px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: #4643fdba;
+}
+
+/* .bi-github{
+    font-size: 2rem;
+    color: aqua;
+} */
+
+
+a:link{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.87);
+}
+
+a:visited{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.87);
+}
+
+.bg-light{
+    background-color: #fff!important;
+}
+
+.carousel-caption{
+    position: initial;
+    padding-top: 100px;
+}

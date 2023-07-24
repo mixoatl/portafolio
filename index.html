@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monserrat Fernández</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container-fluid p-0">
+    <header class="d-flex justify-content-center py-3 fw-bolder">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#perfil" class="nav-link" aria-current="page">Perfil</a></li>
+            <li class="nav-item"><a href="#secciones" class="nav-link">Secciones</a></li>
+            <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+    </header>
+    <!-- **Perfil (foto, descripción, imágen) -->
+    <section id="perfil" class="container my-5">
+        <article class="row p-4 pb-0 pt-lg-5 justify-content-center align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center px-3 px-lg-5 pt-lg-3">
+                <img src="images/monse.png" id="img-perfil" class="img-thumbnail rounded-circle" alt="Foto de perfil">
+                <h1 id="typewriter" class="display-6 fw-bold lh-1 text-body-emphasis"></h1>
+                <p class="lead">Desarrolladora Web / Estudiante / Amante de las gallinas y los gatos </p>
+            </div>
+            <div class="col-lg-6 d-flex flex-column align-items-center pb-4">
+                <img src="images/Image20230718105836.png" class="img-fluid" id="img-stack" alt="Stack">
+            </div>
+            <!-- <div class="col-lg-4 d-flex flex-column align-items-start justify-content-center p-3 p-lg-5 pt-lg-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, a corrupti! Aspernatur nostrum
+                    architecto nisi ea maiores? Commodi voluptatum nobis dolore officiis libero, vero consequuntur sit
+                    distinctio porro fuga dolorem? </p>
+            </div> -->
+        </article>
+    </section>
+    <!-- Secciones de mi página / links a otras páginas -->
+    <section id="secciones" class="container my-5 text-center">
+        <div class="row rounded-3 border shadow-lg">
+            <div class="col-4 p-5">
+                <h5>Desarrollo Web</h5>
+                <p>He participado en diversos proyectos de páginas web para su desarrollo y diseño, utilizando diversos lenguajes.</p>
+                <p>
+                    <span class="badge rounded-pill text-bg-primary">HTML</span>
+                    <span class="badge rounded-pill text-bg-primary">CSS</span>
+                    <span class="badge rounded-pill text-bg-primary">JS</span>
+                </p>
+            </div>
+            <div class="bg-primary col-4 p-5">
+                <h5>Articulos</h5>
+                <p>Notas interesantes acerca de la programación y el diseño web que me parecen interesantes.</p>
+                <p>
+                    <span class="badge rounded-pill text-bg-dark"><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></span>
+                    <span class="badge rounded-pill text-bg-dark"><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></span>
+                    <span class="badge rounded-pill text-bg-dark"><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></span>
+                </p>
+            </div>
+            <div class="col-4 p-5">
+                <h5>Estudiante</h5>
+                <p>Me encuentro estudiando una licenciatura en Ciencias Computacionales en las que he puesto en práctica mis conocimientos.</p>
+                <p>
+                    <span class="badge rounded-pill text-bg-primary">Programacion</span>
+                    <span class="badge rounded-pill text-bg-primary">Responsabilidad</span>
+                    <span class="badge rounded-pill text-bg-primary">Creatividad</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- **Proyectos -->
+    <section id="proyectos" class="container my-5">
+        <div class="row rounded-3 border shadow-lg">
+            <div class="row pt-4 m-0 p-0 justify-content-center text-center">
+                <h2>Proyectos</h2>
+            </div>
+            <div class="row row-cols-1 pb-4 row-cols-lg-3 m-0 align-items-stretch g-4">
+                <div class="col">
+                    <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">FCFMart</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="proyecto-2" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">HM</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="proyecto-3" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Clon de Google</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="proyecto-4" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Gallinas & Gatos</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="proyecto-5" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">VideoLife</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="proyecto-6" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Safe Nav</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonios -->
+    <section id="testimonios" class="container my-5">
+        <div class="row rounded-3 border shadow-lg">
+            <div class="row pt-4 m-0 p-0 justify-content-center text-center">
+                <h2>Testimonios</h2>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-caption d-flex bg-light justify-content-center">
+                            <div class="col-lg-4">
+                                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false" src="images/gallina2.jpg">
+                                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                                </img>
+                                <h2 class="fw-normal">Diego Ruelas</h2>
+                                <p>Buenos trabajos, creativa y responsable</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="carousel-caption d-flex bg-light justify-content-center">
+                            <div class="col-lg-4">
+                                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false" src="images/gallinas3.jpg">
+                                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                                </img>
+                                <h2 class="fw-normal">Rolando Muñiz</h2>
+                                <p>Colabora en equipo, puntual y respetuosa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="carousel-caption d-flex bg-light justify-content-center">
+                            <div class="col-lg-4">
+                                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false" src="images/gato1.jpg">
+                                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                            </img>
+                                <h2 class="fw-normal">Antonio Esquívez</h2>
+                                <p>Amable, inteligente y audaz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- **Contacto -->
+    <footer id="contacto" class="bg-dark text-secondary py-5 text-center">
+        <div class="py-5">
+            <h1 id="contactame" data-bs-toggle="modal" data-bs-target="#modal-contactame"
+                class="display-5 fw-bold text-white mb-5">Contáctame</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">Si se encuentra interesado en conocer de mi trabajo, visite cualquiera de los
+                    siguientes enlaces para contactarme</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="https://github.com/mixoatl" target="_blank" rel="noopener noreferrer">
+                        <i class="icono bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mixoatl/" target="_blank" rel="noopener noreferrer">
+                        <i class="icono bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mixoatl/" target="_blank" rel="noopener noreferrer">
+                        <i class="icono bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.twitch.tv/kiterrr" target="_blank" rel="noopener noreferrer">
+                        <i class="icono bi bi-twitch"></i>
+                    </a>
+                </div>
+            </div>
+            <h6>Derechos Reservados 2023 Tecnolochicas</h6>
+        </div>
+    </footer>
+
+    <!--Modales-->
+    <div id="modal-contactame" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contáctame</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputNombre4" class="form-label">Nombre</label>
+                            <input type="name" class="form-control" id="inputNombre4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputApellido4" class="form-label">Apellido</label>
+                            <input type="apellido" class="form-control" id="inputApellido4">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Escribe un mensaje para conectar conmigo</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
