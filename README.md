@@ -16,6 +16,10 @@ También contiene una sección de almacenamiento de archivos *(imágenes)* que n
 
 Puedes entrar a ver el demo en este vínculo: https://eloquent-hamster-eb3ca7.netlify.app/
 
+![imagen]("./../images/portafolio-impresion1.png)
+![imagen]("./../images/portafolio-impresion2.png)
+![imagen]("./../images/portafolio-impresion3.png)
+
 ## Tecnologías
 
 Esta página fue creada con:
